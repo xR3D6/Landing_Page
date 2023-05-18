@@ -8,7 +8,7 @@
 }
 
 .container{
-  max-width: 1140px;
+  max-width: 60%;
   margin: auto;
   
 }
@@ -52,13 +52,14 @@ a{
   align-items: center;
   justify-content: space-between;
   padding: 50px 0;
-  gap: 30px;
+  gap: 50px;
 
 }
 
 img{
-  width: 400px;
-  height: auto;
+  width: 800px;
+  height: 200px;
+  background: grey;
 }
 
 h1{
@@ -75,12 +76,12 @@ p{
 
 .btn{
   background: #3882f6;
-  padding: 10px 40px;
+  padding: 5px 30px;
   border-radius: 8px;
   border: 0px solid #3882f6;
   color: #f9faf8;
   font-size: 18px;
-  margin-top: 10px;
+  margin-top: 20px;
   
 }
 
