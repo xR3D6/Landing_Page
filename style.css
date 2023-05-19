@@ -119,3 +119,27 @@ p{
   color: #1f2937;
   text-align: center;
 }
+
+/* sectionThree */
+
+.sectionThree{
+  background: #e5e7eb;
+}
+
+.quote_text{
+  display: flex;
+  padding: 100px 0;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+  justify-content: center;
+}
+
+.quote_author{
+  margin-top: 5px;
+  text-align: end;
+  font-size: 18px;
+  color: #1f2937;
+  font-weight: 900;
+}
