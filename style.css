@@ -185,3 +185,17 @@ p{
   background: #3882f6;
   font-size: 18px;
 }
+
+/* footer */
+
+.footer{
+  background: #1f2937;
+  padding: 20px;
+}
+
+.footertext{
+  text-align: center;
+  font-size: 16px;
+  color: #f9faf8;
+  font-weight: 300;
+}
