@@ -7,6 +7,9 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body{
+  max-height: 100vh;
+}
 .container{
   max-width: 60%;
   margin: auto;
@@ -33,6 +36,7 @@
   font-size: 24px;
   font-weight: 700;
   color: #f9faf8;
+  opacity: 100%;
 }
 
 a{
@@ -126,6 +130,8 @@ p{
   background: #e5e7eb;
 }
 
+
+
 .quote_text{
   display: flex;
   padding: 100px 0;
@@ -137,9 +143,45 @@ p{
 }
 
 .quote_author{
-  margin-top: 5px;
   text-align: end;
   font-size: 18px;
   color: #1f2937;
   font-weight: 900;
+  
+}
+
+/* selection four*/
+
+.box{
+  
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: #3882f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  gap: 50px;
+}
+
+.left{
+  padding: 50px;
+}
+.title{
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.boxtext{
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.boxbtn{
+  padding: 5px 30px;
+  border-radius: 8px;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  background: #3882f6;
+  font-size: 18px;
 }
